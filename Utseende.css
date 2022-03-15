@@ -10,6 +10,7 @@
 body {
     font-family: 'Fredoka', sans-serif;
     color: var(--dark-color);
+    background-color: var(--light-color);
 }
 
 .intro {
@@ -34,7 +35,6 @@ body {
     background-color: var(--light-color);
     font-size: 13px;
     width: 60%;
-    padding: 10px;
 
     transition-duration: 0.5s;
     float: left;
@@ -42,16 +42,11 @@ body {
 
 .målingsliste li{
     margin-left: 100px;
-    font-size: 13px;
-    transition-duration: 0.3s;
-    transform: translateX(0px);
+    font-size: 23px;
+
     list-style: none;
 }
 
-.målingsliste li:hover{
-    font-size: 23px;
-    transform: translateX(100px);
-}
 
 .quizlet{
     background-color: var(--light-color);
@@ -60,4 +55,15 @@ body {
 
 .quizlet vframe{
 align-self: center;
+}
+
+.ulikhet{
+    text-align: center;
+    
+    background-color: var(--theme-color);
+}
+.ulikhet h1{
+    font-size: 40px;
+    font-weight: 90;
+
 }
